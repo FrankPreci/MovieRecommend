@@ -13,7 +13,7 @@ class MovieStore: ObservableObject {
     @Published var movies: [Movie] = Movie.sampleMovies
     
     func movies(for genre: Genre) -> [Movie] {
-        return movies.filter { $0.genre == genre.rawValue }
+        return movies.filter { $0.genre == genre }
     }
     
     func randomMovie(for genre: Genre?) -> Movie? {
