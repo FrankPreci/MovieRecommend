@@ -1,0 +1,709 @@
+[
+    {
+        "title": "Mad Max: Fury Road",
+        "genre": "Action",
+        "description": "In a post-apocalyptic wasteland, Max teams up with Furiosa to flee from a tyrannical warlord.",
+        "rating": 8.1,
+        "posterImageName": "mad_max_fury_road"
+    },
+    {
+        "title": "John Wick",
+        "genre": "Action",
+        "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog.",
+        "rating": 7.4,
+        "posterImageName": "john_wick"
+    },
+    {
+        "title": "Superbad",
+        "genre": "Comedy",
+        "description": "Two high school friends try to enjoy their remaining days before graduation, planning a party to impress girls.",
+        "rating": 7.6,
+        "posterImageName": "superbad"
+    },
+    {
+        "title": "The Hangover",
+        "genre": "Comedy",
+        "description": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing.",
+        "rating": 7.7,
+        "posterImageName": "hangover"
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "rating": 9.3,
+        "posterImageName": "shawshank_redemption"
+    },
+    {
+        "title": "The Godfather",
+        "genre": "Drama",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "rating": 9.2,
+        "posterImageName": "godfather"
+    },
+    {
+        "title": "The Conjuring",
+        "genre": "Horror",
+        "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+        "rating": 7.5,
+        "posterImageName": "conjuring"
+    },
+    {
+        "title": "Hereditary",
+        "genre": "Horror",
+        "description": "A grieving family is haunted by tragic and disturbing occurrences, unraveling dark secrets about their ancestry.",
+        "rating": 7.3,
+        "posterImageName": "hereditary"
+    },
+    {
+        "title": "Interstellar",
+        "genre": "Sci-Fi",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "rating": 8.6,
+        "posterImageName": "interstellar"
+    },
+    {
+        "title": "The Matrix",
+        "genre": "Sci-Fi",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "rating": 8.7,
+        "posterImageName": "matrix"
+    },
+    {
+        "title": "The Notebook",
+        "genre": "Romance",
+        "description": "A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.",
+        "rating": 7.8,
+        "posterImageName": "notebook"
+    },
+    {
+        "title": "La La Land",
+        "genre": "Romance",
+        "description": "While pursuing their dreams in Los Angeles, a jazz musician and an aspiring actress fall in love but struggle to maintain their relationship.",
+        "rating": 8.0,
+        "posterImageName": "lala_land"
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "genre": "Fantasy",
+        "description": "An orphaned boy enrolls in a school of wizardry and uncovers the truth about his magical heritage and the dark past of his parents.",
+        "rating": 7.6,
+        "posterImageName": "harry_potter1"
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "genre": "Fantasy",
+        "description": "A young hobbit embarks on a perilous journey to destroy a powerful ring, aided by a fellowship of friends and allies.",
+        "rating": 8.8,
+        "posterImageName": "lotr_fellowship"
+    },
+    {
+        "title": "Inception",
+        "genre": "Sci-Fi",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "rating": 8.8,
+        "posterImageName": "inception"
+    },
+    {
+        "title": "The Dark Knight",
+        "genre": "Action",
+        "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+        "rating": 9.0,
+        "posterImageName": "dark_knight"
+    },
+    {
+        "title": "Pulp Fiction",
+        "genre": "Crime",
+        "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "rating": 8.9,
+        "posterImageName": "pulp_fiction"
+    },
+    {
+        "title": "Fight Club",
+        "genre": "Drama",
+        "description": "An insomniac office worker and a soap salesman form an underground fight club that evolves into something much, much more.",
+        "rating": 8.8,
+        "posterImageName": "fight_club"
+    },
+    {
+        "title": "Forrest Gump",
+        "genre": "Drama",
+        "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+        "rating": 8.8,
+        "posterImageName": "forrest_gump"
+    },
+    {
+        "title": "The Social Network",
+        "genre": "Drama",
+        "description": "The story of the founding of Facebook, exploring the lawsuits, betrayals, and relationships that shaped the social media empire.",
+        "rating": 7.7,
+        "posterImageName": "social_network"
+    },
+    {
+        "title": "Whiplash",
+        "genre": "Drama",
+        "description": "A young jazz drummer enrolls at a cutthroat music conservatory where his dreams are mentored by an abusive instructor.",
+        "rating": 8.5,
+        "posterImageName": "whiplash"
+    },
+    {
+        "title": "Get Out",
+        "genre": "Horror",
+        "description": "A young African-American man uncovers a disturbing secret when he meets the family of his white girlfriend.",
+        "rating": 7.7,
+        "posterImageName": "get_out"
+    },
+    {
+        "title": "A Quiet Place",
+        "genre": "Horror",
+        "description": "A family must live in silence to avoid mysterious creatures that hunt by sound.",
+        "rating": 7.5,
+        "posterImageName": "a_quiet_place"
+    },
+    {
+        "title": "Parasite",
+        "genre": "Thriller",
+        "description": "A poor family schemes to become employed by a wealthy family, leading to unexpected consequences.",
+        "rating": 8.6,
+        "posterImageName": "parasite"
+    },
+    {
+        "title": "The Terminator",
+        "genre": "Sci-Fi",
+        "description": "A cyborg assassin is sent back in time to kill the mother of the future leader of the human resistance.",
+        "rating": 8.0,
+        "posterImageName": "terminator"
+    },
+    {
+        "title": "Terminator 2: Judgment Day",
+        "genre": "Sci-Fi",
+        "description": "A reprogrammed terminator protects a young boy from a more advanced cyborg assassin sent from the future.",
+        "rating": 8.5,
+        "posterImageName": "terminator2"
+    },
+    {
+        "title": "Star Wars: Episode IV – A New Hope",
+        "genre": "Sci-Fi",
+        "description": "Luke Skywalker joins forces with a Jedi, a cocky pilot, and two droids to save the galaxy from the Empire's world-destroying battle station.",
+        "rating": 8.6,
+        "posterImageName": "star_wars4"
+    },
+    {
+        "title": "The Avengers",
+        "genre": "Action",
+        "description": "Earth's mightiest heroes must come together to stop the mischievous Loki and his alien army from enslaving humanity.",
+        "rating": 8.0,
+        "posterImageName": "avengers"
+    },
+    {
+        "title": "Guardians of the Galaxy",
+        "genre": "Sci-Fi",
+        "description": "A group of intergalactic criminals must work together to stop a fanatical warrior from taking control of the universe.",
+        "rating": 8.0,
+        "posterImageName": "guardians_galaxy"
+    },
+    {
+        "title": "Toy Story",
+        "genre": "Animation",
+        "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+        "rating": 8.3,
+        "posterImageName": "toy_story"
+    },
+    {
+        "title": "Inside Out",
+        "genre": "Animation",
+        "description": "After young Riley is uprooted from her Midwest life, her emotions — Joy, Fear, Anger, Disgust and Sadness — conflict on how best to navigate a new city and school.",
+        "rating": 8.1,
+        "posterImageName": "inside_out"
+    },
+    {
+        "title": "Shrek",
+        "genre": "Animation",
+        "description": "An ogre's quiet life is disrupted when numerous fairy tale characters are exiled to his swamp by the scheming Lord Farquaad.",
+        "rating": 7.9,
+        "posterImageName": "shrek"
+    },
+    {
+        "title": "Finding Nemo",
+        "genre": "Animation",
+        "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+        "rating": 8.1,
+        "posterImageName": "finding_nemo"
+    },
+    {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "genre": "Animation",
+        "description": "Teen Miles Morales becomes Spider-Man of his reality, crossing paths with five counterparts from other dimensions to stop a threat to all realities.",
+        "rating": 8.4,
+        "posterImageName": "spiderman_spiderverse"
+    },
+    {
+        "title": "The Lion King",
+        "genre": "Animation",
+        "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+        "rating": 8.5,
+        "posterImageName": "lion_king"
+    },
+    {
+        "title": "Joker",
+        "genre": "Crime",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck embarks on a downward spiral of revolution and crime, creating the infamous Joker persona.",
+        "rating": 8.4,
+        "posterImageName": "joker"
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "genre": "Thriller",
+        "description": "A young FBI cadet must confide in an incarcerated cannibal killer to catch another serial killer who skins his victims.",
+        "rating": 8.6,
+        "posterImageName": "silence_of_lambs"
+    },
+    {
+        "title": "Se7en",
+        "genre": "Thriller",
+        "description": "Two detectives hunt a serial killer who uses the seven deadly sins as his motives.",
+        "rating": 8.6,
+        "posterImageName": "se7en"
+    },
+    {
+        "title": "The Prestige",
+        "genre": "Drama",
+        "description": "Two stage magicians engage in competitive one-upmanship with tragic results, seeking to create the ultimate illusion.",
+        "rating": 8.5,
+        "posterImageName": "prestige"
+    },
+    {
+        "title": "Gladiator",
+        "genre": "Action",
+        "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+        "rating": 8.5,
+        "posterImageName": "gladiator"
+    },
+    {
+        "title": "Saving Private Ryan",
+        "genre": "War",
+        "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+        "rating": 8.6,
+        "posterImageName": "saving_private_ryan"
+    },
+    {
+        "title": "Top Gun: Maverick",
+        "genre": "Action",
+        "description": "After more than thirty years of service, Maverick is still pushing the envelope as a top naval aviator, training a new generation of graduates for a dangerous mission.",
+        "rating": 8.4,
+        "posterImageName": "top_gun_maverick"
+    },
+    {
+        "title": "The Hunger Games",
+        "genre": "Adventure",
+        "description": "Katniss Everdeen voluntarily takes her younger sister's place in a televised fight to the death between teens in a dystopian future.",
+        "rating": 7.2,
+        "posterImageName": "hunger_games"
+    },
+    {
+        "title": "Dune",
+        "genre": "Sci-Fi",
+        "description": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and people.",
+        "rating": 8.1,
+        "posterImageName": "dune"
+    },
+    {
+        "title": "Titanic",
+        "genre": "Romance",
+        "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated RMS Titanic.",
+        "rating": 7.8,
+        "posterImageName": "titanic"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "genre": "Romance",
+        "description": "Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class.",
+        "rating": 7.8,
+        "posterImageName": "pride_and_prejudice"
+    },
+    {
+        "title": "Crazy Rich Asians",
+        "genre": "Romance",
+        "description": "Native New Yorker Rachel Chu accompanies her boyfriend to his best friend's wedding in Singapore and meets his ultra-rich family.",
+        "rating": 6.9,
+        "posterImageName": "crazy_rich_asians"
+    },
+    {
+        "title": "Moana",
+        "genre": "Animation",
+        "description": "In Ancient Polynesia, when a terrible curse reaches her island, Moana sets sail to find the demigod Maui and save her people.",
+        "rating": 7.6,
+        "posterImageName": "moana"
+    },
+    {
+        "title": "Frozen",
+        "genre": "Animation",
+        "description": "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice, her kingdom is trapped in eternal winter and her sister sets off to find her.",
+        "rating": 7.4,
+        "posterImageName": "frozen"
+    },
+    {
+        "title": "Coco",
+        "genre": "Animation",
+        "description": "Aspiring musician Miguel enters the Land of the Dead to find his great-great-grandfather, a legendary singer, and unlocks his family's history.",
+        "rating": 8.4,
+        "posterImageName": "coco"
+    },
+    {
+        "title": "The Pursuit of Happyness",
+        "genre": "Drama",
+        "description": "A struggling salesman takes custody of his son as he’s poised to begin a life-changing professional career.",
+        "rating": 8.0,
+        "posterImageName": "pursuit_of_happyness"
+    },
+    {
+        "title": "Black Panther",
+        "genre": "Action",
+        "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and become the Black Panther.",
+        "rating": 7.3,
+        "posterImageName": "black_panther"
+    },
+    {
+        "title": "Doctor Strange",
+        "genre": "Sci-Fi",
+        "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+        "rating": 7.5,
+        "posterImageName": "doctor_strange"
+    },
+    {
+        "title": "Avatar",
+        "genre": "Sci-Fi",
+        "description": "A paraplegic Marine dispatched to the moon Pandora becomes torn between following his orders and protecting the world he feels is his home.",
+        "rating": 7.8,
+        "posterImageName": "avatar"
+    },
+    {
+        "title": "Wonder Woman",
+        "genre": "Action",
+        "description": "Diana, an Amazonian warrior in training, leaves her home to stop World War I, discovering her full powers and true destiny.",
+        "rating": 7.4,
+        "posterImageName": "wonder_woman"
+    },
+    {
+        "title": "Aquaman",
+        "genre": "Action",
+        "description": "Arthur Curry, heir to the underwater kingdom of Atlantis, must step forward to claim his birthright and prevent a war between land and sea.",
+        "rating": 6.9,
+        "posterImageName": "aquaman"
+    },
+    {
+        "title": "Shazam!",
+        "genre": "Action",
+        "description": "A 14-year-old boy can transform into an adult superhero by uttering the magic word 'Shazam!' and must learn to use his newfound powers responsibly.",
+        "rating": 7.0,
+        "posterImageName": "shazam"
+    },
+    {
+        "title": "The Flash",
+        "genre": "Action",
+        "description": "Barry Allen gains super-speed abilities and must harness them to protect his city from evil forces and time-related disasters.",
+        "rating": 6.5,
+        "posterImageName": "flash"
+    },
+    {
+        "title": "Iron Man",
+        "genre": "Action",
+        "description": "Genius, billionaire, playboy, and philanthropist Tony Stark builds a high-tech suit of armor to escape captivity and becomes Iron Man.",
+        "rating": 7.9,
+        "posterImageName": "iron_man"
+    },
+    {
+        "title": "Captain America",
+        "genre": "Action",
+        "description": "After being enhanced to the peak of human perfection, Steve Rogers fights for justice as the patriotic superhero Captain America.",
+        "rating": 7.8,
+        "posterImageName": "captain_america"
+    },
+    {
+        "title": "Thor",
+        "genre": "Action",
+        "description": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans on Earth, learning humility and heroism.",
+        "rating": 7.0,
+        "posterImageName": "thor"
+    },
+    {
+        "title": "Ant-Man",
+        "genre": "Action",
+        "description": "Scott Lang, a former thief, acquires a suit that allows him to shrink in size but increase in strength, becoming the superhero Ant-Man.",
+        "rating": 7.3,
+        "posterImageName": "ant_man"
+    },
+    {
+        "title": "Deadpool",
+        "genre": "Action",
+        "description": "A former special forces operative turned mercenary is subjected to an experiment that leaves him with accelerated healing powers and a twisted sense of humor.",
+        "rating": 8.0,
+        "posterImageName": "deadpool"
+    },
+    {
+        "title": "Logan",
+        "genre": "Action",
+        "description": "In the near future, an aging Wolverine cares for an ailing Professor X while protecting a young mutant from dark forces.",
+        "rating": 8.1,
+        "posterImageName": "logan"
+    },
+    {
+        "title": "Avengers: Endgame",
+        "genre": "Action",
+        "description": "After the devastating events of Infinity War, the remaining Avengers assemble to reverse Thanos' actions and restore balance to the universe.",
+        "rating": 8.4,
+        "posterImageName": "avengers_endgame"
+    },
+    {
+        "title": "Avengers: Infinity War",
+        "genre": "Action",
+        "description": "The Avengers and their allies must stop Thanos from collecting all six Infinity Stones and unleashing his destructive plan on the universe.",
+        "rating": 8.5,
+        "posterImageName": "avengers_infinity_war"
+    },
+    {
+        "title": "Spider-Man: Homecoming",
+        "genre": "Action",
+        "description": "Peter Parker balances high school life with being Spider-Man while facing the Vulture, a villain threatening New York City.",
+        "rating": 7.4,
+        "posterImageName": "spiderman_homecoming"
+    },
+    {
+        "title": "Spider-Man: Far From Home",
+        "genre": "Action",
+        "description": "Peter Parker goes on a school trip to Europe but must step up as Spider-Man to face a new threat, Mysterio.",
+        "rating": 7.5,
+        "posterImageName": "spiderman_far_from_home"
+    },
+    {
+        "title": "Guardians of the Galaxy Vol. 2",
+        "genre": "Action",
+        "description": "The Guardians struggle to keep together as a team while unraveling the mystery of Peter Quill's true parentage.",
+        "rating": 7.6,
+        "posterImageName": "guardians_vol2"
+    },
+    {
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "genre": "Action",
+        "description": "Doctor Strange casts a forbidden spell that opens the multiverse, leading to unforeseen consequences and new threats.",
+        "rating": 7.2,
+        "posterImageName": "doctor_strange_multiverse"
+    },
+    {
+        "title": "Black Widow",
+        "genre": "Action",
+        "description": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+        "rating": 7.3,
+        "posterImageName": "black_widow"
+    },
+    {
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "genre": "Action",
+        "description": "Shang-Chi must confront the past he thought he left behind when he is drawn into the mysterious Ten Rings organization.",
+        "rating": 7.4,
+        "posterImageName": "shang_chi"
+    },
+    {
+        "title": "Eternals",
+        "genre": "Action",
+        "description": "A group of immortal beings with superhuman powers emerges from hiding to protect humanity from the Deviants.",
+        "rating": 6.8,
+        "posterImageName": "eternals"
+    },
+    {
+        "title": "The Batman",
+        "genre": "Action",
+        "description": "Batman ventures into Gotham’s underworld when a killer leaves cryptic clues, uncovering corruption that connects to his own family.",
+        "rating": 7.9,
+        "posterImageName": "the_batman"
+    },
+    {
+        "title": "Jumanji: Welcome to the Jungle",
+        "genre": "Action",
+        "description": "Four teenagers are sucked into a magical video game and must work together to survive its deadly challenges.",
+        "rating": 6.9,
+        "posterImageName": "jumanji_welcome"
+    },
+    {
+        "title": "Jumanji: The Next Level",
+        "genre": "Action",
+        "description": "The gang returns to Jumanji to rescue one of their own, facing even more dangerous terrain and unexpected twists.",
+        "rating": 6.7,
+        "posterImageName": "jumanji_next_level"
+    },
+    {
+        "title": "The Incredibles",
+        "genre": "Animation",
+        "description": "A family of undercover superheroes must save the world while maintaining their normal suburban lives.",
+        "rating": 8.0,
+        "posterImageName": "incredibles"
+    },
+    {
+        "title": "The Incredibles 2",
+        "genre": "Animation",
+        "description": "Elastigirl is called to lead a campaign to bring Supers back, while Mr. Incredible navigates domestic life at home.",
+        "rating": 7.6,
+        "posterImageName": "incredibles_2"
+    },
+    {
+        "title": "Ratatouille",
+        "genre": "Animation",
+        "description": "A rat with a passion for cooking teams up with a young chef in Paris to create culinary masterpieces.",
+        "rating": 8.0,
+        "posterImageName": "ratatouille"
+    },
+    {
+        "title": "Up",
+        "genre": "Animation",
+        "description": "An elderly man fulfills a lifelong dream by tying thousands of balloons to his house and flying to South America, accompanied by a young boy scout.",
+        "rating": 8.2,
+        "posterImageName": "up"
+    },
+    {
+        "title": "Wall-E",
+        "genre": "Animation",
+        "description": "A small waste-collecting robot inadvertently embarks on a space journey that will decide the fate of mankind.",
+        "rating": 8.4,
+        "posterImageName": "wall_e"
+    },
+    {
+        "title": "Big Hero 6",
+        "genre": "Animation",
+        "description": "A robotics prodigy teams up with his inflatable robot and friends to form a high-tech superhero team.",
+        "rating": 7.8,
+        "posterImageName": "big_hero_6"
+    },
+    {
+        "title": "Zootopia",
+        "genre": "Animation",
+        "description": "A rookie bunny cop and a cynical con artist fox work together to uncover a conspiracy in a city of anthropomorphic animals.",
+        "rating": 8.0,
+        "posterImageName": "zootopia"
+    },
+    {
+        "title": "Kung Fu Panda",
+        "genre": "Animation",
+        "description": "An overweight panda discovers he is the prophesied Dragon Warrior and must defend the Valley of Peace.",
+        "rating": 7.5,
+        "posterImageName": "kung_fu_panda"
+    },
+    {
+        "title": "Kung Fu Panda 2",
+        "genre": "Animation",
+        "description": "Po and the Furious Five must stop a villain who plans to conquer China using a secret weapon of mass destruction.",
+        "rating": 7.2,
+        "posterImageName": "kung_fu_panda_2"
+    },
+    {
+        "title": "Kung Fu Panda 3",
+        "genre": "Animation",
+        "description": "Po reunites with his long-lost father and faces a supernatural villain who threatens Kung Fu mastery.",
+        "rating": 7.1,
+        "posterImageName": "kung_fu_panda_3"
+    },
+    {
+        "title": "How to Train Your Dragon",
+        "genre": "Animation",
+        "description": "A young Viking befriends a dragon, changing the way his village perceives the creatures.",
+        "rating": 8.1,
+        "posterImageName": "how_to_train_dragon"
+    },
+    {
+        "title": "How to Train Your Dragon 2",
+        "genre": "Animation",
+        "description": "Hiccup discovers a secret ice cave that is home to hundreds of new wild dragons and faces a new villain.",
+        "rating": 7.8,
+        "posterImageName": "how_to_train_dragon_2"
+    },
+    {
+        "title": "How to Train Your Dragon: The Hidden World",
+        "genre": "Animation",
+        "description": "Hiccup and Toothless discover a hidden dragon utopia while facing a dragon hunter who threatens their world.",
+        "rating": 7.5,
+        "posterImageName": "how_to_train_dragon_3"
+    },
+    {
+        "title": "Madagascar",
+        "genre": "Animation",
+        "description": "A group of zoo animals find themselves stranded on the island of Madagascar after a zoo escape.",
+        "rating": 6.9,
+        "posterImageName": "madagascar"
+    },
+    {
+        "title": "Madagascar: Escape 2 Africa",
+        "genre": "Animation",
+        "description": "The zoo animals continue their adventures as they travel to Africa and meet their wild relatives.",
+        "rating": 6.7,
+        "posterImageName": "madagascar_2"
+    },
+    {
+        "title": "Madagascar 3: Europe's Most Wanted",
+        "genre": "Animation",
+        "description": "The animals join a traveling circus as they try to return home to New York City.",
+        "rating": 6.8,
+        "posterImageName": "madagascar_3"
+    },
+    {
+        "title": "Ice Age",
+        "genre": "Animation",
+        "description": "A group of prehistoric animals come together to return a human baby to its tribe.",
+        "rating": 7.5,
+        "posterImageName": "ice_age"
+    },
+    {
+        "title": "Ice Age: The Meltdown",
+        "genre": "Animation",
+        "description": "The ice is melting, and Manny, Sid, and Diego must save their herd from disaster.",
+        "rating": 6.6,
+        "posterImageName": "ice_age_2"
+    },
+    {
+        "title": "Ice Age: Dawn of the Dinosaurs",
+        "genre": "Animation",
+        "description": "The herd discovers a hidden world of dinosaurs beneath the ice and must rescue Sid.",
+        "rating": 6.3,
+        "posterImageName": "ice_age_3"
+    },
+    {
+        "title": "Ice Age: Continental Drift",
+        "genre": "Animation",
+        "description": "Manny and the herd set sail on an adventure after their continent breaks apart.",
+        "rating": 6.6,
+        "posterImageName": "ice_age_4"
+    },
+    {
+        "title": "Ice Age: Collision Course",
+        "genre": "Animation",
+        "description": "The herd must save the Earth from a meteor strike with the help of Scrat.",
+        "rating": 5.7,
+        "posterImageName": "ice_age_5"
+    },
+    {
+        "title": "Despicable Me",
+        "genre": "Animation",
+        "description": "A supervillain adopts three girls as part of his evil plan, only to change his ways.",
+        "rating": 7.6,
+        "posterImageName": "despicable_me"
+    },
+    {
+        "title": "Despicable Me 2",
+        "genre": "Animation",
+        "description": "Gru teams up with the Anti-Villain League to stop a new supervillain threat.",
+        "rating": 7.3,
+        "posterImageName": "despicable_me_2"
+    },
+    {
+        "title": "Despicable Me 3",
+        "genre": "Animation",
+        "description": "Gru discovers he has a long-lost twin and faces a villainous threat with his Minions.",
+        "rating": 6.3,
+        "posterImageName": "despicable_me_3"
+    }
+]
+
+
+
+
+
+
+

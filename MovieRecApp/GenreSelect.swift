@@ -7,7 +7,6 @@ struct GenreSelect: View {
     @State private var showAlert = false
     @State private var goToMoviePage = false
 
-    // Work directly with the enum, not Strings
     let genres = Genre.allCases
 
     var body: some View {
@@ -18,9 +17,7 @@ struct GenreSelect: View {
                     Text("Select a Genre")
                         .font(.largeTitle)
                         .fontWeight(.bold)
-
                     Spacer()
-
                     Button(action: handleContinue) {
                         Text("Continue")
                             .padding(.horizontal, 16)
@@ -45,19 +42,23 @@ struct GenreSelect: View {
                 }
 
                 Spacer()
+
+                // NavigationLink for programmatic navigation
+                NavigationLink(
+                    destination: MovieRecPage(selectedGenres: Array(selectedGenres))
+                        .environmentObject(movieStore),
+                    isActive: $goToMoviePage
+                ) {
+                    EmptyView()
+                }
             }
             .padding()
-            .alert("Please select any of the following", isPresented: $showAlert) {
-                Button("OK", role: .cancel) { }
+            .alert("Please select at least one genre", isPresented: $showAlert) {
+                Button("OK", role: .cancel) {}
             }
-        }
-        .navigationDestination(isPresented: $goToMoviePage) {
-            MovieRecPage(selectedGenres: Array(selectedGenres))
         }
     }
 
-
-    // Use Genre here
     func toggleSelection(for genre: Genre) {
         if selectedGenres.contains(genre) {
             selectedGenres.remove(genre)
@@ -86,15 +87,13 @@ struct GenreButton: View {
                 Image(systemName: isSelected ? "checkmark.square.fill" : "square")
                     .foregroundColor(isSelected ? .blue : .gray)
                     .font(.title2)
-
                 Text(title)
                     .font(.title3)
                     .foregroundColor(.primary)
-
                 Spacer()
             }
             .padding()
-            .background(Color(.systemGray))
+            .background(Color(.systemGray6))
             .cornerRadius(10)
         }
     }

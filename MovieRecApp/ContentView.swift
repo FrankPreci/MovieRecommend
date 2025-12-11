@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var movieStore: MovieStore
+
     var body: some View {
         NavigationStack {
             VStack(spacing: 40) {
@@ -11,7 +13,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 10)
 
-                NavigationLink(destination: GenreSelect()) { //Go to Genre Select page
+                NavigationLink(destination: GenreSelect().environmentObject(movieStore)) { // ✅ pass environment object
                     Text("Click to Start")
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -30,4 +32,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(MovieStore())
 }
