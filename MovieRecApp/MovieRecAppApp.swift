@@ -16,4 +16,5 @@ struct MovieRecAppApp: App {
             ContentView()
                 .environmentObject(movieStore)
         }
+    }
 }

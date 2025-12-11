@@ -25,7 +25,7 @@ struct MovieDetailView: View {
                     .font(.largeTitle)
                     .bold()
 
-                Text("\(movie.genre.rawValue) • ⭐️ \(movie.rating, specifier: "%.1f")")
+                Text("\(movie.genre.hashValue) • ⭐️ \(movie.rating, specifier: "%.1f")")
                     .font(.headline)
                     .foregroundStyle(.secondary)
 
@@ -39,6 +39,6 @@ struct MovieDetailView: View {
             .padding()
         }
         .navigationTitle(movie.title)
-        .navigationBarTitleDisplayMode(.inline)
+//        .navigationBarTitleDisplayMode(.inline)
     }
 }

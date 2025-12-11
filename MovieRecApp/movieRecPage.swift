@@ -56,10 +56,11 @@ struct MovieRecPage: View {
         let selectedGenres = self.selectedGenres.map { $0.rawValue }
         
         guard let fileURL = Bundle.main.url(forResource: "movieList", withExtension: "txt"),
-              let fileContents = try? String(contentsOf: fileURL) else {
+              let fileContents = try? String(contentsOf: fileURL, encoding: .utf8) else {
             matchingMovies = ["Error loading movieList.txt"]
             return
         }
+
 
         let lines = fileContents.split(separator: "\n").map(String.init)
 

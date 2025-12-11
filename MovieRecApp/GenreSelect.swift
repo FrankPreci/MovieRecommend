@@ -3,18 +3,12 @@ import SwiftUI
 struct GenreSelect: View {
     @EnvironmentObject var movieStore: MovieStore
 
-    @State private var selectedGenres: Set<String> = []
+    @State private var selectedGenres: Set<Genre> = []
     @State private var showAlert = false
-
     @State private var goToMoviePage = false
 
-//    let genres = [
-//        "Action", "Comedy", "Drama", "Horror", "Sci-Fi",
-//        "Romance", "Thriller", "Fantasy", "Animation",
-//        "Documentary", "Mystery", "Adventure", "Family", "Crime"
-//    ]
-    
-    let genres = Genre.allCases.map { $0.rawValue }
+    // Work directly with the enum, not Strings
+    let genres = Genre.allCases
 
     var body: some View {
         NavigationStack {
@@ -39,9 +33,9 @@ struct GenreSelect: View {
 
                 ScrollView {
                     VStack(spacing: 12) {
-                        ForEach(genres, id: \.self) { genre in
+                        ForEach(genres) { genre in
                             GenreButton(
-                                title: genre,
+                                title: genre.rawValue,
                                 isSelected: selectedGenres.contains(genre),
                                 action: { toggleSelection(for: genre) }
                             )
@@ -51,21 +45,20 @@ struct GenreSelect: View {
                 }
 
                 Spacer()
-
-                // Navigation Trigger
-                NavigationLink(
-                    destination: MovieRecPage(selectedGenres: Array(selectedGenres)),
-                    isActive: $goToMoviePage
-                ) { EmptyView() }
             }
             .padding()
             .alert("Please select any of the following", isPresented: $showAlert) {
                 Button("OK", role: .cancel) { }
             }
         }
+        .navigationDestination(isPresented: $goToMoviePage) {
+            MovieRecPage(selectedGenres: Array(selectedGenres))
+        }
     }
 
-    func toggleSelection(for genre: String) {
+
+    // Use Genre here
+    func toggleSelection(for genre: Genre) {
         if selectedGenres.contains(genre) {
             selectedGenres.remove(genre)
         } else {
@@ -101,7 +94,7 @@ struct GenreButton: View {
                 Spacer()
             }
             .padding()
-            .background(Color(.systemGray6))
+            .background(Color(.systemGray))
             .cornerRadius(10)
         }
     }
