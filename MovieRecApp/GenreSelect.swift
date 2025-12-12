@@ -2,7 +2,7 @@ import SwiftUI
 
 struct GenreSelect: View {
     @EnvironmentObject var movieStore: MovieStore
-
+    //frank was here
     @State private var selectedGenres: Set<Genre> = []
     @State private var showAlert = false
     @State private var goToMoviePage = false
